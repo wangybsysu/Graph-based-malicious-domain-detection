@@ -3,7 +3,7 @@ This paper investigates how to effectively utilize relational patterns revealed 
 (Please note that this implementation is not a complete, ready-to-use solution. As processing domain resolution relationships, extracting IP lists, and collecting supplementary IP-related information constitute data collection and preprocessing—which only require straightforward integration—subsequent researchers can compile the required datasets according to their needs. We provide only the core computational algorithms and will specify the input formats in detail to ensure researchers can directly implement this code.)
 
 ## Composition
-The paper discusses a total of six typical graph-based methods for detecting malicious domains, including: BP, DeepDom, GAMD, Path-based Inference, LINE, and Node2Vec.<br>
+This paper discusses a total of six typical graph-based methods for detecting malicious domains, including: BP, DeepDom, GAMD, Path-based Inference, LINE, and Node2Vec.<br>
 Among these:<br>
 -The LINE method employs the algorithm model from the DGL toolkit.<br>
 -The Node2Vec method uses the original open-source code.<br>
