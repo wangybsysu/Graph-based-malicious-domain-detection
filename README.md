@@ -69,7 +69,7 @@ The core idea of both methods is to generate node embeddings based on the graph 
 
 
 **Note**<br>
-If you require technical support or have any other questions regarding the code, please feel free to contact us—we'd be happy to help.
+If you require technical support or have any other questions regarding the code, please feel free to contact us—we'd be happy to help. We will continue to update and improve this repository.
 
 
 
