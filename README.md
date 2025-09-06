@@ -30,7 +30,7 @@ Similarly, additional graph structures can be constructed based on IP auxiliary 
 
 **(2)BP**<br>
 The Belief Propagation (BP) algorithm is a message-passing inference method for probabilistic graphical models. Its core principle involves achieving global probability consensus through iterative local message exchanges between nodes. More specifically, BP propagates known labels from annotated nodes throughout the graph according to predefined inference rules, thereby estimating the probability distributions of unlabeled nodes. For our reimplementation, we employed Python's factorgraph toolkit to execute the BP algorithm.<br>
-The core methodology consists of: (i) Initializing probability values to 0.99 for malicious domains and 0.01 for unlabelled domains (this configuration prevents computational zeros that would occur with 0-valued initialization during multiplicative operations). (ii) Following the same computational procedure as the path-based inference approach to derive the domain relationship graph. (iii) Establishing inference relationships between adjacent nodes as specified in the following table:
+The core methodology consists of: (i) Initializing probability values to 0.99 for malicious domains and 0.5 for unlabelled domains (this configuration prevents computational zeros that would occur with 0-valued initialization during multiplicative operations). (ii) Following the same computational procedure as the path-based inference approach to derive the domain relationship graph. (iii) Establishing inference relationships between adjacent nodes as specified in the following table:
 
 | p(vi,vj) | vi=benign | vi=malicious |
 |:-------|:-------|:--------:|
