@@ -1,5 +1,5 @@
 # Here is the code repository for the paper: "Graph-based Malicious Domain Name Detection: How to Use the Heuristic Relations".
-## notice:The author recently plans to leverage large‑language models to optimize the messy legacy code written with traditional hand‑coding methods. Should you require assistance regarding this paper, please contact the author via email. Thank you!
+## :exclamation:Notice:The author recently plans to leverage LLM to optimize the messy legacy code written with traditional hand‑coding. Should you require assistance regarding this paper, please contact the author via email. Thank you!
 This paper investigates how to effectively utilize relational patterns revealed during domain name resolution for graph-based malicious domain detection. We refer to these relational patterns as heuristic relations.<br>
 (Please note that this implementation is not a complete, ready-to-use solution. As processing domain resolution relationships, extracting IP lists, and collecting supplementary IP-related information constitute data collection and preprocessing—which only require straightforward integration—subsequent researchers can compile the required datasets according to their needs. We provide only the core computational algorithms and will specify the input formats in detail to ensure researchers can directly implement this code.)
 
